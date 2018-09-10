@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="所说内容：" />
+
+    <EditText
+        android:id="@+id/content_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:cursorVisible="true"
+        android:enabled="true"
+        android:gravity="top"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/listen_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始说话" />
+</LinearLayout>
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" >-->
+    <!--a-->
+    <!--<TextView-->
+    <!--android:id="@+id/tv_content"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:textSize="20dp"-->
+    <!--tools:context=".MainActivity" />-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/bottom"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:orientation="horizontal" >-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_start"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="2dip"-->
+    <!--android:layout_weight="1"-->
+    <!--android:text="开始说话"/>-->
+    <!--</LinearLayout>-->
+
+    <!--</RelativeLayout>-->
